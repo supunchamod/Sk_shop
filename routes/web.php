@@ -24,6 +24,9 @@ Route::get('/wishlist', [PageController::class , 'wishlist']);
 Route::get('/profile', [PageController::class , 'profile']);
 Route::get('/checkout', [PageController::class , 'checkout']);
 Route::get('/contact', [PageController::class , 'contact']);
+Route::get('/product_details', [PageController::class , 'product_details']);
+
+
 
 
 

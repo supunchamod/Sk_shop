@@ -30,6 +30,10 @@ class PageController extends Controller
 
         return view('checkout');
     }
+    public function product_details(){
+
+        return view('product_details');
+    }
 
 
 }
